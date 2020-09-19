@@ -1,0 +1,25 @@
+{
+   "name": "nextjs-hands-on",
+   "scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start",
+      "eslint": "eslint .",
+      "eslint:fix": "eslint --fix ."
+   },
+   "license": "UNILICENSED",
+   "dependencies": {
+      "next": "^9.5.3",
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1"
+   },
+   "devDependencies": {
+      "babel-eslint": "^10.1.0",
+      "eslint": "^7.9.0",
+      "eslint-config-prettier": "^6.11.0",
+      "eslint-plugin-babel": "^5.3.1",
+      "eslint-plugin-prettier": "^3.1.4",
+      "eslint-plugin-react": "^7.20.6",
+      "prettier": "^2.1.2"
+   }
+}
