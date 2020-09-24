@@ -26,11 +26,11 @@ class MyDocument extends Document {
                     <NextScript />
                 </body>
             </html>
-        )
+        );
     }
 }
 
-MyDocument.getInitialProps = async ctx => {
+MyDocument.getInitialProps = async ({ ctx }) => {
     // Resolution order
     //
     // On the server:
